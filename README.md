@@ -11,6 +11,7 @@ Final-year **Industrial Networks & AI** engineering student (HNSREED, Algeria). 
 | Project | What it shows |
 |---|---|
 | 🤖 **[g1-arm-retargeting](https://github.com/ilyessaadna10/g1-arm-retargeting)** | Webcam teleoperation of the Unitree G1 arms in MuJoCo: MediaPipe pose, numerical IK on the real robot model (0.4 deg mean error, 3 ms per solve, verified by a round-trip test), joint trajectories logged for imitation learning. |
+| 🪥 **[imu-replay-validation](https://github.com/ilyessaadna10/imu-replay-validation)** | Simulated robot-assisted IMU test bench: human brushing replayed on a 6-DOF arm (0.28 mm accuracy), motion-capture calibration, and recovery of IMU axis conventions, misalignment, bias, scale and noise from a structured test protocol. |
 | 🍎 **[apple-quality-classifier](https://github.com/ilyessaadna10/apple-quality-classifier)** | Own dataset of 415 phone photos → my own labeling tool → Grounding DINO + SAM cut-outs → ConvNeXt-Tiny 5-fold ensemble with leakage-safe grouped CV. **97.6 % out-of-fold accuracy**, 98.3 % of bad apples caught, 33 ms per apple on a laptop GPU. |
 | 🦾 **[ros2_moveit2_cartesian_robot_arm](https://github.com/ilyessaadna10/ros2_moveit2_cartesian_robot_arm)** | 3-axis gantry robot: MoveIt 2 motion planning, `ros2_control`, C++ pick-and-place, Gazebo Harmonic. Demo videos in the README. |
 | 🚜 **[fieldbot-gps-ekf](https://github.com/ilyessaadna10/fieldbot-gps-ekf)** | Outdoor farm robot: dual-EKF GPS/IMU/odometry fusion, RGB-D perception, Nav2, field-mapping service. |
