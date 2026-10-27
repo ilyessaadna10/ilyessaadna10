@@ -20,4 +20,4 @@ Final-year **Industrial Networks & AI** engineering student (HNSREED, Algeria). 
 **Perception & ML:** PyTorch · timm · Segment Anything · Grounding DINO · YOLOv8 · OpenCV
 **Code:** C++ (modern, multithreading) · Python · CMake · Docker · Git · Linux
 **Automation:** PLC (Ladder, Structured Text) · Modbus RTU/TCP · CAN · EtherNet/IP · ESP32 / Arduino
-**Languages:** Arabic (native) · English (C1)
+**Languages:** Arabic (native) · English (B2, professional working proficiency)
