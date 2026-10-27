@@ -1,6 +1,6 @@
 ### Hi, I'm Ilyes 👋
 
-Final-year **Industrial Networks & AI** engineering student (HNSREED, Algeria). I build robots that **see, plan and act**, using ROS 2, MoveIt 2, Nav2, computer vision and industrial automation (PLC, fieldbuses).
+Final-year **Industrial Networks & AI** engineering student (HNSREED, Algeria). I build machines that **see, decide and act**: PLC-controlled production lines with machine vision, and robots with ROS 2, MoveIt 2 and Nav2.
 
 📫 Open to a final-year internship (Feb to Jul 2027) · ilyessaadna4@gmail.com · [LinkedIn](https://linkedin.com/in/ilyes-saadna)
 
@@ -10,6 +10,7 @@ Final-year **Industrial Networks & AI** engineering student (HNSREED, Algeria). 
 
 | Project | What it shows |
 |---|---|
+| 🏭 **[smart-sorting-line](https://github.com/ilyessaadna10/smart-sorting-line)** | Conveyor sorting line controlled by a real PLC runtime (OpenPLC, IEC 61131-3 Structured Text) over Modbus TCP remote I/O: E-stop and reset logic, jam detection, camera handshake with fail-safe timeout, encoder part tracking and a reject ejector. Vision station runs my apple classifier. **Simulated FAT: 6/6 checks pass**, E-stop stops the belt in 30 ms, every inspected part routed as the camera decided. |
 | 🤖 **[g1-arm-retargeting](https://github.com/ilyessaadna10/g1-arm-retargeting)** | Webcam teleoperation of the Unitree G1 arms in MuJoCo: MediaPipe pose, numerical IK on the real robot model (0.4 deg mean error, 3 ms per solve, verified by a round-trip test), joint trajectories logged for imitation learning. |
 | 🪥 **[imu-replay-validation](https://github.com/ilyessaadna10/imu-replay-validation)** | Simulated robot-assisted IMU test bench: human brushing replayed on a 6-DOF arm (0.28 mm accuracy), motion-capture calibration, and recovery of IMU axis conventions, misalignment, bias, scale and noise from a structured test protocol. |
 | 🍎 **[apple-quality-classifier](https://github.com/ilyessaadna10/apple-quality-classifier)** | Own dataset of 415 phone photos → my own labeling tool → Grounding DINO + SAM cut-outs → ConvNeXt-Tiny 5-fold ensemble with leakage-safe grouped CV. **97.6 % out-of-fold accuracy**, 98.3 % of bad apples caught, 33 ms per apple on a laptop GPU. |
@@ -21,5 +22,5 @@ Final-year **Industrial Networks & AI** engineering student (HNSREED, Algeria). 
 **Robotics:** ROS 2 (Jazzy/Humble) · MoveIt 2 · Nav2 · ros2_control · SLAM Toolbox · robot_localization · Gazebo Harmonic
 **Perception & ML:** PyTorch · timm · Segment Anything · Grounding DINO · YOLOv8 · OpenCV
 **Code:** C++ (modern, multithreading) · Python · CMake · Docker · Git · Linux
-**Automation:** PLC (Ladder, Structured Text) · Modbus RTU/TCP · CAN · EtherNet/IP · ESP32 / Arduino
+**Automation:** PLC (IEC 61131-3 Structured Text, Ladder) · OpenPLC · Modbus RTU/TCP remote I/O · CAN · EtherNet/IP · ESP32 / Arduino
 **Languages:** Arabic (native) · English (B2, professional working proficiency)
