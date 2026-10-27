@@ -2,7 +2,7 @@
 
 Final-year **Industrial Networks & AI** engineering student (HNSREED, Algeria). I build robots that **see, plan and act**, using ROS 2, MoveIt 2, Nav2, computer vision and industrial automation (PLC, fieldbuses).
 
-📫 Open to a final-year internship (Feb – Jul 2027) · saadna.ilyes.dev@gmail.com · [LinkedIn](https://linkedin.com/in/ilyes-saadna)
+📫 Open to a final-year internship (Feb – Jul 2027) · ilyessaadna4@gmail.com · [LinkedIn](https://linkedin.com/in/ilyes-saadna)
 
 ---
 
